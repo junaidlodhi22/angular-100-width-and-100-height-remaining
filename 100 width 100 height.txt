@@ -1,0 +1,6 @@
+<div class="container-fluid h-100">
+  <div class="row h-100">
+    <div class="col bg-primary">a</div>
+    <div class="col bg-success">b</div>
+  </div>
+</div>
