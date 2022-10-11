@@ -1,0 +1,280 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "SUBWAY BINGKAI 2",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "sub",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "mesh" : 2,
+            "name" : "WAY 2",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Steel_-_Satin",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0,
+                    0.06372056156396866,
+                    0.0012066372437402606,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.9550902247428894,
+                    0.9364909529685974,
+                    0.0043061221949756145,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "SUBWAY BINGKAI 2",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "sub",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5
+                    },
+                    "indices" : 6
+                }
+            ]
+        },
+        {
+            "name" : "WAY 2",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 7,
+                        "NORMAL" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 6600,
+            "max" : [
+                153.2534637451172,
+                17,
+                37.22669219970703
+            ],
+            "min" : [
+                -184.77821350097656,
+                0,
+                -59.774959564208984
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 6600,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 6600,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 18264,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 12577,
+            "max" : [
+                -25.82741928100586,
+                15,
+                25.395681381225586
+            ],
+            "min" : [
+                -177.1067657470703,
+                0,
+                -40.92295837402344
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 12577,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5123,
+            "count" : 17070,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 18701,
+            "max" : [
+                145.48516845703125,
+                15,
+                20.294597625732422
+            ],
+            "min" : [
+                -27.668624877929688,
+                0,
+                -47.74321746826172
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 18701,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 26880,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 79200,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 79200,
+            "byteOffset" : 79200,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 52800,
+            "byteOffset" : 158400,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36528,
+            "byteOffset" : 211200,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 150924,
+            "byteOffset" : 247728,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 150924,
+            "byteOffset" : 398652,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 34140,
+            "byteOffset" : 549576,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 224412,
+            "byteOffset" : 583716,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 224412,
+            "byteOffset" : 808128,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 53760,
+            "byteOffset" : 1032540,
+            "target" : 34963
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1086300,
+            "uri" : "SUBWAY3.bin"
+        }
+    ]
+}
